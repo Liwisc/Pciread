@@ -1,0 +1,10 @@
+<component>
+    name = "OemPciread"
+    category = ModulePart
+    LocalRoot = "OemPkg\OemPciread\"
+    RefName = "OemPciread"
+[INF]
+"OemPciread.inf"
+[files]
+"OemPciread.sdl"	
+<endComponent>

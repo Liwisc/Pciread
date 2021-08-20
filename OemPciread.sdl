@@ -1,0 +1,14 @@
+TOKEN
+    Name  = "OemPciread_INF_SUPPORT"
+    Value  = "1"
+    Help  = "Main switch to enable OemPciread support in Project"
+    TokenType = Boolean
+End
+
+INFComponent
+    Name  = "OemPciread"
+    File  = "OemPciread.inf"
+    Package  = "OemPciread"
+    ModuleTypes  = "UEFI_APPLICATION"
+    Token = "OemPciread_INF_SUPPORT" "=" "1"
+End
